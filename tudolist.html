@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>恒哥备忘录—最简单的待办事项列表</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="keywords" content="恒哥备忘录技术分享,恒哥备忘录官网,备忘录,记事本,smart memo">
+    <meta name="description" content="恒哥备忘录技术分享，您工作和生活的好帮手，让你更合理的安排时间，避免错过一些重要的会议，预约等。贴心显示距离日期。便捷桌面备忘，方便你更快捷的查看备忘。彩色备忘，方便你对不同的备忘进行分组。可变的界面，让你永远更多选择。">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <section>
+            <label for="title">恒哥备忘录</label>
+            <input type="text" id="title" name="title" placeholder="添加待办事项" required="required" autocomplete="off" />
+            <button type="button" class="btn">新建</button>
+        </section>
+    </header>
+    <section class="content">
+        <h2>正在进行 <span id="todocount"></span></h2>
+        <ol id="todolist" class="demo-box">
+
+        </ol>
+        <h2>已经完成 <span id="donecount"></span></h2>
+        <ul id="donelist">
+
+        </ul>
+    </section>
+    <footer>
+        Copyright &copy; 2021 
+        <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备66666666号-1</a>
+        <p>www.hengge.cn</p>
+    </footer>
+
+
+</body>
+
+</html>
